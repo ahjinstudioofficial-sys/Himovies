@@ -18,19 +18,19 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8366193299:AAFwnW1CTWHCNwgNefmE7RDWqjZOEFSmkJA")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8580460026:AAHoVvmU4BKZrSaKkHYEv50J_IxKXrfjvy4")
 APP_ID = int(os.environ.get("APP_ID", "26944587" )) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "7261a455f2a6159b8a2fbfecd1a63004") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002913195239")) #Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003629437044")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "ᴅɪᴀʙʟᴏ") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "6888478102")) # Owner id
+OWNER_ID = int(os.environ.get("OWNER_ID", "8723274243")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kojar29650:h8jvNvpyteVB8AzM@cluster0.uywzxza.mongodb.net/?retryWrites=true&w=majority&appName=Mineslinkbot")
-DB_NAME = os.environ.get("DATABASE_NAME", "Mineslinkbot")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kojar29650:h8jvNvpyteVB8AzM@cluster0.uywzxza.mongodb.net/?retryWrites=true&w=majority&appName=himovies")
+DB_NAME = os.environ.get("DATABASE_NAME", "himovies")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "20"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "7a541402aeacbdbff361696add89bce2cf8afa4e")
@@ -42,7 +42,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/48788261ae8fe52
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "7a541402aeacbdbff361696add89bce2cf8afa4e")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/How_To_Download_OTx")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/How_To_Open_linkshortify")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ce313689202de1f38afc7-43265ec5f4d1ad77eb.jpg")
@@ -92,7 +92,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 #==========================(BUY PREMIUM)====================#
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "DIABLO VOLFIR")
-UPI_ID = os.environ.get("UPI_ID", "otxstudioofficial@okaxis")
+UPI_ID = os.environ.get("UPI_ID", "Vickynohara@fan")
 QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/660d3f50580f40808c6d1-79ef30f54923f5c762.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/diablovolfir0")
 #--------------------------------------------
